@@ -1,0 +1,75 @@
+{
+  "name": "JIRA API Automation",
+  "description": "Extracting automation ideas from Automation Hub",
+  "main": "Automation ID comparison.xaml",
+  "dependencies": {
+    "Newtonsoft.Json": "[13.0.1]",
+    "UiPath.DataService.Activities": "[21.6.1]",
+    "UiPath.Excel.Activities": "[2.10.4]",
+    "UiPath.Jira.Activities": "[2.2.0]",
+    "UiPath.Mail.Activities": "[1.10.4]",
+    "UiPath.System.Activities": "[21.4.0]",
+    "UiPath.UIAutomation.Activities": "[21.4.3]",
+    "UiPath.WebAPI.Activities": "[1.7.0]",
+    "UiPathTeam.JiraGet.Activities": "[1.0.0.116]"
+  },
+  "webServices": [],
+  "entitiesStores": [
+    {
+      "serviceDocument": ".entities/EntitiesStore.json",
+      "tenantName": "AshishTenant",
+      "namespace": "JIRA_API_Automation",
+      "uniqueReference": "s5X70hbFiZJZSEE6TGtc9cAcHCOgcNEdV0W9RteNuok="
+    }
+  ],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.4.3.0",
+  "projectVersion": "1.0.2",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "84ce37c1-ec68-49d5-a7e0-b829c0e8df7a",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Automation ID comparison.xaml",
+      "uniqueId": "51d23090-016c-4c8b-a59b-7015260d302d",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
